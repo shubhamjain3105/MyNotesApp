@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
     HashSet<String> set = (HashSet<String>) sharedPreferences.getStringSet("notes",null);
       if(set==null){
           notes.add("Example");
+          //
       }
 
       else
